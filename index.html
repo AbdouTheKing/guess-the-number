@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess a number between 1 - 100</h1>
+        
+        <h2>You have only 10 attempts</h2>
+        <br>
+
+      <div class="box1">
+           <label for="guessField">> Enter a Guess : </label>
+
+           <input type="number" max="100" min="1" id="guessField" class="guessField">
+           <input type="submit" value="Tab Enter" class="guessSubmit">
+          <div class="lastResult">
+              <p class="guesses"> Your previous attempts : </p>
+              <p id="lastResult"></p>
+              <p class="lowOrHight"></p>
+              <p class="chances"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

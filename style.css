@@ -1,0 +1,47 @@
+body {
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: 2px;
+    white-space: 2px;
+    font-size:25px ;
+    color: rgba(255, 255, 0, 0.397);
+    color: rgba(255, 166, 0, 0.418);
+    
+}
+.container {
+    color: white;
+
+    width: 70%;
+    height: 78vh;
+    margin-left: 15%;
+    padding-top: 20px;
+    margin-top: 6%;
+    border-radius:20px ;
+    animation: hh 8s infinite;
+    -webkit-box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 48px 11px rgba(0,0,0,0.4); 
+box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 48px 11px rgba(0,0,0,0.4);
+}
+@keyframes hh {
+    0%   {background-color:#9801726e;}
+    25%  {background-color:#4a1b756c;}
+    50%  {background-color:#9d50c071;}
+    100% {background-color: #eb1cb471;}
+  }
+
+#guessField{
+    width:100px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+}
+.guessSubmit{
+    background-color: #00000071;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
